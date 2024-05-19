@@ -11,6 +11,9 @@
 		E2F2702C2BFA16BE0043C42A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2702B2BFA16BE0043C42A /* ContentView.swift */; };
 		E2F2702E2BFA16C00043C42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F2702D2BFA16C00043C42A /* Assets.xcassets */; };
 		E2F270312BFA16C00043C42A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F270302BFA16C00043C42A /* Preview Assets.xcassets */; };
+		E2F270392BFA18F40043C42A /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F270382BFA18F40043C42A /* Task.swift */; };
+		E2F2703C2BFA1B920043C42A /* DateExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2703B2BFA1B920043C42A /* DateExt.swift */; };
+		E2F2703E2BFA1E9F0043C42A /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F2703D2BFA1E9F0043C42A /* ViewExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		E2F2702B2BFA16BE0043C42A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2F2702D2BFA16C00043C42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F270302BFA16C00043C42A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2F270382BFA18F40043C42A /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		E2F2703B2BFA1B920043C42A /* DateExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExt.swift; sourceTree = "<group>"; };
+		E2F2703D2BFA1E9F0043C42A /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		E2F270282BFA16BE0043C42A /* DoTask */ = {
 			isa = PBXGroup;
 			children = (
+				E2F2703A2BFA1B7A0043C42A /* Extensions */,
+				E2F270372BFA18DC0043C42A /* Models */,
 				E2F270292BFA16BE0043C42A /* DoTaskApp.swift */,
 				E2F2702B2BFA16BE0043C42A /* ContentView.swift */,
 				E2F2702D2BFA16C00043C42A /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				E2F270302BFA16C00043C42A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E2F270372BFA18DC0043C42A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2F270382BFA18F40043C42A /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2F2703A2BFA1B7A0043C42A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2F2703B2BFA1B920043C42A /* DateExt.swift */,
+				E2F2703D2BFA1E9F0043C42A /* ViewExt.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +163,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F2702C2BFA16BE0043C42A /* ContentView.swift in Sources */,
+				E2F270392BFA18F40043C42A /* Task.swift in Sources */,
+				E2F2703E2BFA1E9F0043C42A /* ViewExt.swift in Sources */,
 				E2F2702A2BFA16BE0043C42A /* DoTaskApp.swift in Sources */,
+				E2F2703C2BFA1B920043C42A /* DateExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
